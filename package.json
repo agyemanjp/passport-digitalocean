@@ -1,6 +1,6 @@
 {
 	"name": "@agyemanjp/passport-digitalocean",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "DigitalOcean authentication strategy for Passport, written in TypeScript",
 	"keywords": [
 		"passport",
