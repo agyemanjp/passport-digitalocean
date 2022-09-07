@@ -1,7 +1,6 @@
 # Passport-DigitalOcean
 
-[Passport](http://passportjs.org/) strategy for authenticating with [DigitalOcean](https://www.digitalocean.com/)
-using the OAuth 2.0 API.
+[Passport](http://passportjs.org/) strategy for authenticating with [DigitalOcean](https://www.digitalocean.com/) using the OAuth 2.0 API.
 
 This module lets you authenticate using DigitalOcean in your Node.js applications.
 By plugging into Passport, DigitalOcean authentication can be easily and
@@ -10,8 +9,7 @@ unobtrusively integrated into any application or framework that supports
 [Express](http://expressjs.com/).
 
 ## Install
-
-    $ npm install passport-digitalocean
+npm install @agyemanjp/passport-digitalocean
 
 ## Usage
 
@@ -56,19 +54,16 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/harbur/passport-digitalocean/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/agyemanjp/passport-digitalocean/tree/master/examples/login).
 
 ## Tests
+npm install
+npm run test
 
-    $ npm install --dev
-    $ make test
-
-[![Build Status](https://secure.travis-ci.org/harbur/passport-digitalocean.png)](http://travis-ci.org/harbur/passport-digitalocean)
 
 ## Credits
-
+Ported to Typescript bt James Prempeh (http://github.com/agyemanjp)
 Created by [Dimitris Kapanidis](http://github.com/spiddy)
-
 Code based on passport-github by [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
